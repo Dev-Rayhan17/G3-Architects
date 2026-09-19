@@ -22,6 +22,13 @@
     border-radius: 8px;
 border: none;
 }
+main {
+    max-width: 1440 px;
+    margin: 0 auto;
+}
+main > section{
+margin-top: 130px;
+}
 /* header styles */
 
 
@@ -65,4 +72,35 @@ color: #424242;
     font-weight:400;
     font-size: 1 rem;
     color:#727272;
+}
+/* team and feature related styles */
+.teams{
+    align-items: center;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.our-features{
+    margin-left: 130px;
+    max-width: 530px;
+}
+.feature-title{
+    font-size: 2.8rem;
+}
+.feature-description{
+color: #727272;
+font-size: 1rem;
+}
+#quick-list{
+    color: #727272;
+    font-weight: 500;
+}
+#of-our{
+font-weight: 700;
+}
+#features{
+color: #FF900E;
+font-weight: 700;
 }
