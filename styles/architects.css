@@ -164,3 +164,24 @@ margin-top:  40px;
     color: #727272;
 margin-top: 10px;
 }
+/* sponsor related styles */
+.sponsors-info{
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.sponsor-description{
+font: size 1rem;;
+font-weight: 400;
+color: #727272;
+margin-top: 24px;
+}
+.sponsor-companies{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.sponsor-companies img{
+    filter: grayscale(100%);
+    gap: 24px;
+}
