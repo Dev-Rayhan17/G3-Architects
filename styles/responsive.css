@@ -1,7 +1,8 @@
 @media screen and (max-width: 576px){
     .navbar, 
     .nav-links,
-    .teams{
+    .teams,
+    .facts-container{
         flex-direction: column;
     }
     .banner img{
@@ -20,5 +21,24 @@
     }
     .our-features{
         margin-left: 20px;
+ 
+    } 
+    .facts-container{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 24px;
     }
+    .some-facts{
+        justify-items: center;
+        text-align: center;
+    }
+    .
+}
+@media  screen and (min-width:576px) and (max-width:992px){
+    .teams{
+        flex-direction: column;
+    }
+        .banner img{
+            width: 100%;
+        }
 }
