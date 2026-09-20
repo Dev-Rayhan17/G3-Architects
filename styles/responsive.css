@@ -40,6 +40,14 @@
         margin-top: 20px;
         margin-left: 20px;
     }
+    .footer-container{
+        margin: auto;
+        margin-top: 20px;
+    }
+        .footer-title{
+            padding:20px 40px;
+            text-align: center;
+        }
 }
 @media  screen and (min-width:576px) and (max-width:992px){
     .teams{

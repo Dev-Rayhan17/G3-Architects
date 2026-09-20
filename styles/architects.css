@@ -220,3 +220,15 @@ margin-top: 24px;
     filter: grayscale(100%);
     gap: 24px;
 }
+.footer-container{
+background-color: #FFF4E7;
+margin: 130px 240px;
+}
+.footer-title{
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-align: center;
+    color: #727272;
+    padding: 40px 140px
+
+}
