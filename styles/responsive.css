@@ -2,10 +2,12 @@
     .navbar, 
     .nav-links,
     .teams,
-    .facts-container{
+    .facts-container,
+    .Features{
         flex-direction: column;
     }
-    .banner img{
+    .banner img,
+    .featured-architect img {
         width: 100%;
     }
     .team-img-container{
@@ -24,7 +26,8 @@
  
     } 
     .facts-container,
-    .sponsor-companies{
+    .sponsor-companies,
+    .Features{
         grid-template-columns: 1fr;
         justify-items: center;
         gap: 24px;
@@ -33,7 +36,10 @@
         justify-items: center;
         text-align: center;
     }
-    
+    #experrience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
 }
 @media  screen and (min-width:576px) and (max-width:992px){
     .teams{
